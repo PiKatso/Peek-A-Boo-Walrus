@@ -5,7 +5,7 @@
 
 .clickable {
   cursor: pointer;
-  color: blue;
+  color: purple;
 }
 
 .clickable:hover {
