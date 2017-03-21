@@ -28,4 +28,19 @@ $("button#neutral-button").click( function(){
   $("body").addClass("neutral-background");
 });
 
+//Computer Talk & Response//
+$("button#hello-button").click(function(){
+  $("ul#guest-input").append("<li>hello HELLO!</li>");
+  $("ul#computer-response").append("<li>well hello there doll.</li>");
+
+});
+
+$("button#whats-up-button").click(function(){
+  $("ul#guest-input").append("<li>Yo yo yo, what's up?!</li>");
+  $("ul#computer-response").append("<li>Yo homie, how it do?</li>");
+
+});
+
+
+
 });
