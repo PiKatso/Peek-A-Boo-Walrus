@@ -1,3 +1,4 @@
+/*** Walrus Section ***/
 .initially-hidden{
   display: none;
 }
@@ -13,4 +14,22 @@
 
 #walrus-img {
   max-width: 550px;
+}
+
+/*** Background Button Section ***/
+.red-background{
+  background-color: red;
+}
+
+.blue-background{
+  background-color: blue;
+  color: white;
+}
+
+.green-background{
+  background-color: green;
+}
+
+.neutral-background{
+  background-color: white;
 }
